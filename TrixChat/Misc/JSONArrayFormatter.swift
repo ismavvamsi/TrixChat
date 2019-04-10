@@ -10,11 +10,11 @@ import Foundation
 import SwiftyJSON
 
 class JSONArrayFormatter {
-//    func formatItems(json: JSON) -> [Items] {
-//        var responseArray: [Items] = []
-//        for i in 0..<json.count {
-//            responseArray.append(Items(json: json[i]))
-//        }
-//        return responseArray
-//}
+    func chatForms(json: JSON) -> [ChatForm] {
+        var responseArray: [ChatForm] = []
+        for i in 0..<json.count {
+            responseArray.append(ChatForm(json: json[i]))
+        }
+        return responseArray
+}
 }

@@ -15,13 +15,16 @@
 		8A729335225DF18800F00D21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A729333225DF18800F00D21 /* LaunchScreen.storyboard */; };
 		8A729340225DF18800F00D21 /* TrixChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A72933F225DF18800F00D21 /* TrixChatTests.swift */; };
 		8A72934B225DF18800F00D21 /* TrixChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A72934A225DF18800F00D21 /* TrixChatUITests.swift */; };
-		8A72935D225DF2F100F00D21 /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A72935C225DF2F100F00D21 /* Sample.swift */; };
 		8A72935F225DF47A00F00D21 /* JSONArrayFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A72935E225DF47900F00D21 /* JSONArrayFormatter.swift */; };
 		8A729368225DF52900F00D21 /* MyUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A729363225DF52800F00D21 /* MyUserDefaults.swift */; };
 		8A729369225DF52900F00D21 /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A729364225DF52900F00D21 /* WebServices.swift */; };
 		8A72936A225DF52900F00D21 /* WebConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A729365225DF52900F00D21 /* WebConstants.swift */; };
 		8A72936B225DF52900F00D21 /* ResponseConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A729366225DF52900F00D21 /* ResponseConstants.swift */; };
 		8A72936C225DF52900F00D21 /* ApiEndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A729367225DF52900F00D21 /* ApiEndPoints.swift */; };
+		8A72936E225DFD5D00F00D21 /* ChatOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A72936D225DFD5D00F00D21 /* ChatOptions.swift */; };
+		8A729370225DFD7E00F00D21 /* ChatForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A72936F225DFD7E00F00D21 /* ChatForm.swift */; };
+		8A729372225DFD9F00F00D21 /* CheckLicenseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A729371225DFD9F00F00D21 /* CheckLicenseResponse.swift */; };
+		8A729377225E00D000F00D21 /* InitialiseChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A729376225E00D000F00D21 /* InitialiseChat.swift */; };
 		92EDDC5E3D6F4CB62D829B22 /* Pods_TrixChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F0145707FEAC3CF367CA5C6 /* Pods_TrixChat.framework */; };
 		B0DADE3448045E528D8B64C6 /* Pods_TrixChatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E8E5880F7AF192F90EF7AC3 /* Pods_TrixChatUITests.framework */; };
 /* End PBXBuildFile section */
@@ -61,13 +64,16 @@
 		8A729346225DF18800F00D21 /* TrixChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrixChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A72934A225DF18800F00D21 /* TrixChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrixChatUITests.swift; sourceTree = "<group>"; };
 		8A72934C225DF18800F00D21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8A72935C225DF2F100F00D21 /* Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
 		8A72935E225DF47900F00D21 /* JSONArrayFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONArrayFormatter.swift; sourceTree = "<group>"; };
 		8A729363225DF52800F00D21 /* MyUserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyUserDefaults.swift; sourceTree = "<group>"; };
 		8A729364225DF52900F00D21 /* WebServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServices.swift; sourceTree = "<group>"; };
 		8A729365225DF52900F00D21 /* WebConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebConstants.swift; sourceTree = "<group>"; };
 		8A729366225DF52900F00D21 /* ResponseConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseConstants.swift; sourceTree = "<group>"; };
 		8A729367225DF52900F00D21 /* ApiEndPoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiEndPoints.swift; sourceTree = "<group>"; };
+		8A72936D225DFD5D00F00D21 /* ChatOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatOptions.swift; sourceTree = "<group>"; };
+		8A72936F225DFD7E00F00D21 /* ChatForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatForm.swift; sourceTree = "<group>"; };
+		8A729371225DFD9F00F00D21 /* CheckLicenseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckLicenseResponse.swift; sourceTree = "<group>"; };
+		8A729376225E00D000F00D21 /* InitialiseChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialiseChat.swift; sourceTree = "<group>"; };
 		D52EFD939731FF7539E96EA1 /* Pods-TrixChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrixChatUITests.debug.xcconfig"; path = "Target Support Files/Pods-TrixChatUITests/Pods-TrixChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E3345CD2A98448A979189B8A /* Pods-TrixChatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrixChatTests.debug.xcconfig"; path = "Target Support Files/Pods-TrixChatTests/Pods-TrixChatTests.debug.xcconfig"; sourceTree = "<group>"; };
 		EB9D41EDD23C8232F8FC0467 /* Pods_TrixChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrixChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -189,7 +195,8 @@
 		8A72935A225DF27200F00D21 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				8A72935C225DF2F100F00D21 /* Sample.swift */,
+				8A729375225E00BB00F00D21 /* InitialiseChat */,
+				8A729373225DFDA700F00D21 /* CheckLicense */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -221,12 +228,30 @@
 			isa = PBXGroup;
 			children = (
 				8A729367225DF52900F00D21 /* ApiEndPoints.swift */,
-				8A729363225DF52800F00D21 /* MyUserDefaults.swift */,
-				8A729366225DF52900F00D21 /* ResponseConstants.swift */,
 				8A729365225DF52900F00D21 /* WebConstants.swift */,
 				8A729364225DF52900F00D21 /* WebServices.swift */,
+				8A729363225DF52800F00D21 /* MyUserDefaults.swift */,
+				8A729366225DF52900F00D21 /* ResponseConstants.swift */,
 			);
 			path = WebServices;
+			sourceTree = "<group>";
+		};
+		8A729373225DFDA700F00D21 /* CheckLicense */ = {
+			isa = PBXGroup;
+			children = (
+				8A72936D225DFD5D00F00D21 /* ChatOptions.swift */,
+				8A72936F225DFD7E00F00D21 /* ChatForm.swift */,
+				8A729371225DFD9F00F00D21 /* CheckLicenseResponse.swift */,
+			);
+			path = CheckLicense;
+			sourceTree = "<group>";
+		};
+		8A729375225E00BB00F00D21 /* InitialiseChat */ = {
+			isa = PBXGroup;
+			children = (
+				8A729376225E00D000F00D21 /* InitialiseChat.swift */,
+			);
+			path = InitialiseChat;
 			sourceTree = "<group>";
 		};
 		BD44D18F24CEE1845C707DEF /* Pods */ = {
@@ -465,13 +490,16 @@
 			files = (
 				8A72935F225DF47A00F00D21 /* JSONArrayFormatter.swift in Sources */,
 				8A729368225DF52900F00D21 /* MyUserDefaults.swift in Sources */,
+				8A729377225E00D000F00D21 /* InitialiseChat.swift in Sources */,
+				8A72936E225DFD5D00F00D21 /* ChatOptions.swift in Sources */,
 				8A729369225DF52900F00D21 /* WebServices.swift in Sources */,
 				8A72932D225DF18200F00D21 /* ViewController.swift in Sources */,
-				8A72935D225DF2F100F00D21 /* Sample.swift in Sources */,
+				8A729372225DFD9F00F00D21 /* CheckLicenseResponse.swift in Sources */,
 				8A72936C225DF52900F00D21 /* ApiEndPoints.swift in Sources */,
 				8A72932B225DF18200F00D21 /* AppDelegate.swift in Sources */,
 				8A72936B225DF52900F00D21 /* ResponseConstants.swift in Sources */,
 				8A72936A225DF52900F00D21 /* WebConstants.swift in Sources */,
+				8A729370225DFD7E00F00D21 /* ChatForm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

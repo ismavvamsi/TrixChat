@@ -9,18 +9,12 @@
 import Foundation
 
 class ApiEndPoints: NSObject {
-    static let postLogin = "auth/snapchat"
-    static let gethomefeed = "feed"
-    static let getorders = "orders"
-    static let postconnect = "connect"
-    static let postMeRefer = "me/refer"
-    static let postFiltersUse = "filters/use"
-    static let getMeProfile = "me/profile"
-    static let getPersonalInfo = "me"
-    static let getMeOrders = "me/orders"
-    static let postUserLogin = "auth/login"
-    static let getFilters = "filters?category_id="
-    static let postSignUp = "auth/signup"
-    static let postVerify = "auth/verify"
-    static let getMeRefer = "me/refer"
+    
+    static let checkLicense = "checkLicense.php"
+    static let initializeChat = "initializeChat.php"
+    static let pushMessage = "pushMessage.php"
+    static let getChatDetails = "getChatDetails.php"
+    static let getChatMessage = "getChatMessage.php"
+    static let closeAndSetChatFeedback = "closeAndSetChatFeedback.php"
+
 }
