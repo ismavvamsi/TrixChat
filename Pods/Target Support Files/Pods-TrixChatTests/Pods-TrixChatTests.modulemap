@@ -1,0 +1,6 @@
+framework module Pods_TrixChatTests {
+  umbrella header "Pods-TrixChatTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

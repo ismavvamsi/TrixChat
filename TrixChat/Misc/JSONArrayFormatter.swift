@@ -7,3 +7,14 @@
 //
 
 import Foundation
+import SwiftyJSON
+
+class JSONArrayFormatter {
+//    func formatItems(json: JSON) -> [Items] {
+//        var responseArray: [Items] = []
+//        for i in 0..<json.count {
+//            responseArray.append(Items(json: json[i]))
+//        }
+//        return responseArray
+//}
+}

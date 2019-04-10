@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E35D3127BB6FAA916152A41 /* Pods_TrixChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB9D41EDD23C8232F8FC0467 /* Pods_TrixChatTests.framework */; };
 		8A72932B225DF18200F00D21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A72932A225DF18200F00D21 /* AppDelegate.swift */; };
 		8A72932D225DF18200F00D21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A72932C225DF18200F00D21 /* ViewController.swift */; };
 		8A729330225DF18200F00D21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A72932E225DF18200F00D21 /* Main.storyboard */; };
@@ -14,6 +15,15 @@
 		8A729335225DF18800F00D21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A729333225DF18800F00D21 /* LaunchScreen.storyboard */; };
 		8A729340225DF18800F00D21 /* TrixChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A72933F225DF18800F00D21 /* TrixChatTests.swift */; };
 		8A72934B225DF18800F00D21 /* TrixChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A72934A225DF18800F00D21 /* TrixChatUITests.swift */; };
+		8A72935D225DF2F100F00D21 /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A72935C225DF2F100F00D21 /* Sample.swift */; };
+		8A72935F225DF47A00F00D21 /* JSONArrayFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A72935E225DF47900F00D21 /* JSONArrayFormatter.swift */; };
+		8A729368225DF52900F00D21 /* MyUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A729363225DF52800F00D21 /* MyUserDefaults.swift */; };
+		8A729369225DF52900F00D21 /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A729364225DF52900F00D21 /* WebServices.swift */; };
+		8A72936A225DF52900F00D21 /* WebConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A729365225DF52900F00D21 /* WebConstants.swift */; };
+		8A72936B225DF52900F00D21 /* ResponseConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A729366225DF52900F00D21 /* ResponseConstants.swift */; };
+		8A72936C225DF52900F00D21 /* ApiEndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A729367225DF52900F00D21 /* ApiEndPoints.swift */; };
+		92EDDC5E3D6F4CB62D829B22 /* Pods_TrixChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F0145707FEAC3CF367CA5C6 /* Pods_TrixChat.framework */; };
+		B0DADE3448045E528D8B64C6 /* Pods_TrixChatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E8E5880F7AF192F90EF7AC3 /* Pods_TrixChatUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F0145707FEAC3CF367CA5C6 /* Pods_TrixChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrixChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B51BD2079147E1665E19731 /* Pods-TrixChatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrixChatUITests.release.xcconfig"; path = "Target Support Files/Pods-TrixChatUITests/Pods-TrixChatUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3E8E5880F7AF192F90EF7AC3 /* Pods_TrixChatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrixChatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7132F140F51356602D62868F /* Pods-TrixChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrixChat.debug.xcconfig"; path = "Target Support Files/Pods-TrixChat/Pods-TrixChat.debug.xcconfig"; sourceTree = "<group>"; };
 		8A729327225DF18200F00D21 /* TrixChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrixChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A72932A225DF18200F00D21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A72932C225DF18200F00D21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +61,18 @@
 		8A729346225DF18800F00D21 /* TrixChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrixChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A72934A225DF18800F00D21 /* TrixChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrixChatUITests.swift; sourceTree = "<group>"; };
 		8A72934C225DF18800F00D21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A72935C225DF2F100F00D21 /* Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
+		8A72935E225DF47900F00D21 /* JSONArrayFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONArrayFormatter.swift; sourceTree = "<group>"; };
+		8A729363225DF52800F00D21 /* MyUserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyUserDefaults.swift; sourceTree = "<group>"; };
+		8A729364225DF52900F00D21 /* WebServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServices.swift; sourceTree = "<group>"; };
+		8A729365225DF52900F00D21 /* WebConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebConstants.swift; sourceTree = "<group>"; };
+		8A729366225DF52900F00D21 /* ResponseConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseConstants.swift; sourceTree = "<group>"; };
+		8A729367225DF52900F00D21 /* ApiEndPoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiEndPoints.swift; sourceTree = "<group>"; };
+		D52EFD939731FF7539E96EA1 /* Pods-TrixChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrixChatUITests.debug.xcconfig"; path = "Target Support Files/Pods-TrixChatUITests/Pods-TrixChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E3345CD2A98448A979189B8A /* Pods-TrixChatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrixChatTests.debug.xcconfig"; path = "Target Support Files/Pods-TrixChatTests/Pods-TrixChatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EB9D41EDD23C8232F8FC0467 /* Pods_TrixChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrixChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECCA9BECDE93B64D7CDCD052 /* Pods-TrixChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrixChatTests.release.xcconfig"; path = "Target Support Files/Pods-TrixChatTests/Pods-TrixChatTests.release.xcconfig"; sourceTree = "<group>"; };
+		F1433D8AA4D54F99609193D1 /* Pods-TrixChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrixChat.release.xcconfig"; path = "Target Support Files/Pods-TrixChat/Pods-TrixChat.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92EDDC5E3D6F4CB62D829B22 /* Pods_TrixChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E35D3127BB6FAA916152A41 /* Pods_TrixChatTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +96,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0DADE3448045E528D8B64C6 /* Pods_TrixChatUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8596D9E2CCD78AD173581821 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F0145707FEAC3CF367CA5C6 /* Pods_TrixChat.framework */,
+				EB9D41EDD23C8232F8FC0467 /* Pods_TrixChatTests.framework */,
+				3E8E5880F7AF192F90EF7AC3 /* Pods_TrixChatUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8A72931E225DF18100F00D21 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +120,8 @@
 				8A72933E225DF18800F00D21 /* TrixChatTests */,
 				8A729349225DF18800F00D21 /* TrixChatUITests */,
 				8A729328225DF18200F00D21 /* Products */,
+				BD44D18F24CEE1845C707DEF /* Pods */,
+				8596D9E2CCD78AD173581821 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +138,15 @@
 		8A729329225DF18200F00D21 /* TrixChat */ = {
 			isa = PBXGroup;
 			children = (
-				8A72932A225DF18200F00D21 /* AppDelegate.swift */,
-				8A72932C225DF18200F00D21 /* ViewController.swift */,
-				8A72932E225DF18200F00D21 /* Main.storyboard */,
-				8A729331225DF18800F00D21 /* Assets.xcassets */,
-				8A729333225DF18800F00D21 /* LaunchScreen.storyboard */,
 				8A729336225DF18800F00D21 /* Info.plist */,
+				8A72932A225DF18200F00D21 /* AppDelegate.swift */,
+				8A72935A225DF27200F00D21 /* Model */,
+				8A729359225DF26E00F00D21 /* View */,
+				8A729358225DF26700F00D21 /* Controller */,
+				8A729362225DF4E200F00D21 /* WebServices */,
+				8A729361225DF4BA00F00D21 /* Constants */,
+				8A729360225DF4AB00F00D21 /* Fonts */,
+				8A72935B225DF29900F00D21 /* Misc */,
 			);
 			path = TrixChat;
 			sourceTree = "<group>";
@@ -125,6 +169,79 @@
 			path = TrixChatUITests;
 			sourceTree = "<group>";
 		};
+		8A729358225DF26700F00D21 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8A72932C225DF18200F00D21 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8A729359225DF26E00F00D21 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8A729333225DF18800F00D21 /* LaunchScreen.storyboard */,
+				8A72932E225DF18200F00D21 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8A72935A225DF27200F00D21 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8A72935C225DF2F100F00D21 /* Sample.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A72935B225DF29900F00D21 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				8A729331225DF18800F00D21 /* Assets.xcassets */,
+				8A72935E225DF47900F00D21 /* JSONArrayFormatter.swift */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		8A729360225DF4AB00F00D21 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		8A729361225DF4BA00F00D21 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		8A729362225DF4E200F00D21 /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				8A729367225DF52900F00D21 /* ApiEndPoints.swift */,
+				8A729363225DF52800F00D21 /* MyUserDefaults.swift */,
+				8A729366225DF52900F00D21 /* ResponseConstants.swift */,
+				8A729365225DF52900F00D21 /* WebConstants.swift */,
+				8A729364225DF52900F00D21 /* WebServices.swift */,
+			);
+			path = WebServices;
+			sourceTree = "<group>";
+		};
+		BD44D18F24CEE1845C707DEF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7132F140F51356602D62868F /* Pods-TrixChat.debug.xcconfig */,
+				F1433D8AA4D54F99609193D1 /* Pods-TrixChat.release.xcconfig */,
+				E3345CD2A98448A979189B8A /* Pods-TrixChatTests.debug.xcconfig */,
+				ECCA9BECDE93B64D7CDCD052 /* Pods-TrixChatTests.release.xcconfig */,
+				D52EFD939731FF7539E96EA1 /* Pods-TrixChatUITests.debug.xcconfig */,
+				2B51BD2079147E1665E19731 /* Pods-TrixChatUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +249,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A72934F225DF18800F00D21 /* Build configuration list for PBXNativeTarget "TrixChat" */;
 			buildPhases = (
+				CF1FF770B94C9E583FEF7946 /* [CP] Check Pods Manifest.lock */,
 				8A729323225DF18200F00D21 /* Sources */,
 				8A729324225DF18200F00D21 /* Frameworks */,
 				8A729325225DF18200F00D21 /* Resources */,
+				9E929EEBA9EB9FC6F62B16AF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +268,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A729352225DF18800F00D21 /* Build configuration list for PBXNativeTarget "TrixChatTests" */;
 			buildPhases = (
+				BBE3642F8B1A2C016B18C418 /* [CP] Check Pods Manifest.lock */,
 				8A729337225DF18800F00D21 /* Sources */,
 				8A729338225DF18800F00D21 /* Frameworks */,
 				8A729339225DF18800F00D21 /* Resources */,
@@ -167,6 +287,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A729355225DF18800F00D21 /* Build configuration list for PBXNativeTarget "TrixChatUITests" */;
 			buildPhases = (
+				CCA0DFAE072002555AFFA4C7 /* [CP] Check Pods Manifest.lock */,
 				8A729342225DF18800F00D21 /* Sources */,
 				8A729343225DF18800F00D21 /* Frameworks */,
 				8A729344225DF18800F00D21 /* Resources */,
@@ -251,13 +372,106 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9E929EEBA9EB9FC6F62B16AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrixChat/Pods-TrixChat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrixChat/Pods-TrixChat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TrixChat/Pods-TrixChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBE3642F8B1A2C016B18C418 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrixChatTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCA0DFAE072002555AFFA4C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrixChatUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF1FF770B94C9E583FEF7946 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrixChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8A729323225DF18200F00D21 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A72935F225DF47A00F00D21 /* JSONArrayFormatter.swift in Sources */,
+				8A729368225DF52900F00D21 /* MyUserDefaults.swift in Sources */,
+				8A729369225DF52900F00D21 /* WebServices.swift in Sources */,
 				8A72932D225DF18200F00D21 /* ViewController.swift in Sources */,
+				8A72935D225DF2F100F00D21 /* Sample.swift in Sources */,
+				8A72936C225DF52900F00D21 /* ApiEndPoints.swift in Sources */,
 				8A72932B225DF18200F00D21 /* AppDelegate.swift in Sources */,
+				8A72936B225DF52900F00D21 /* ResponseConstants.swift in Sources */,
+				8A72936A225DF52900F00D21 /* WebConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +644,7 @@
 		};
 		8A729350225DF18800F00D21 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7132F140F51356602D62868F /* Pods-TrixChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +663,7 @@
 		};
 		8A729351225DF18800F00D21 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1433D8AA4D54F99609193D1 /* Pods-TrixChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +682,7 @@
 		};
 		8A729353225DF18800F00D21 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3345CD2A98448A979189B8A /* Pods-TrixChatTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +704,7 @@
 		};
 		8A729354225DF18800F00D21 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECCA9BECDE93B64D7CDCD052 /* Pods-TrixChatTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +726,7 @@
 		};
 		8A729356225DF18800F00D21 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D52EFD939731FF7539E96EA1 /* Pods-TrixChatUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +747,7 @@
 		};
 		8A729357225DF18800F00D21 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B51BD2079147E1665E19731 /* Pods-TrixChatUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
