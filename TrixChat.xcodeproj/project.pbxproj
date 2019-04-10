@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A72932B225DF18200F00D21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A72932A225DF18200F00D21 /* AppDelegate.swift */; };
+		8A72932D225DF18200F00D21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A72932C225DF18200F00D21 /* ViewController.swift */; };
+		8A729330225DF18200F00D21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A72932E225DF18200F00D21 /* Main.storyboard */; };
+		8A729332225DF18800F00D21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A729331225DF18800F00D21 /* Assets.xcassets */; };
+		8A729335225DF18800F00D21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A729333225DF18800F00D21 /* LaunchScreen.storyboard */; };
+		8A729340225DF18800F00D21 /* TrixChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A72933F225DF18800F00D21 /* TrixChatTests.swift */; };
+		8A72934B225DF18800F00D21 /* TrixChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A72934A225DF18800F00D21 /* TrixChatUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A72933C225DF18800F00D21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A72931F225DF18100F00D21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A729326225DF18200F00D21;
+			remoteInfo = TrixChat;
+		};
+		8A729347225DF18800F00D21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A72931F225DF18100F00D21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A729326225DF18200F00D21;
+			remoteInfo = TrixChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8A729327225DF18200F00D21 /* TrixChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrixChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A72932A225DF18200F00D21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8A72932C225DF18200F00D21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8A72932F225DF18200F00D21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A729331225DF18800F00D21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A729334225DF18800F00D21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A729336225DF18800F00D21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A72933B225DF18800F00D21 /* TrixChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrixChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A72933F225DF18800F00D21 /* TrixChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrixChatTests.swift; sourceTree = "<group>"; };
+		8A729341225DF18800F00D21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A729346225DF18800F00D21 /* TrixChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrixChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A72934A225DF18800F00D21 /* TrixChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrixChatUITests.swift; sourceTree = "<group>"; };
+		8A72934C225DF18800F00D21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A729324225DF18200F00D21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A729338225DF18800F00D21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A729343225DF18800F00D21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A72931E225DF18100F00D21 = {
+			isa = PBXGroup;
+			children = (
+				8A729329225DF18200F00D21 /* TrixChat */,
+				8A72933E225DF18800F00D21 /* TrixChatTests */,
+				8A729349225DF18800F00D21 /* TrixChatUITests */,
+				8A729328225DF18200F00D21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A729328225DF18200F00D21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A729327225DF18200F00D21 /* TrixChat.app */,
+				8A72933B225DF18800F00D21 /* TrixChatTests.xctest */,
+				8A729346225DF18800F00D21 /* TrixChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A729329225DF18200F00D21 /* TrixChat */ = {
+			isa = PBXGroup;
+			children = (
+				8A72932A225DF18200F00D21 /* AppDelegate.swift */,
+				8A72932C225DF18200F00D21 /* ViewController.swift */,
+				8A72932E225DF18200F00D21 /* Main.storyboard */,
+				8A729331225DF18800F00D21 /* Assets.xcassets */,
+				8A729333225DF18800F00D21 /* LaunchScreen.storyboard */,
+				8A729336225DF18800F00D21 /* Info.plist */,
+			);
+			path = TrixChat;
+			sourceTree = "<group>";
+		};
+		8A72933E225DF18800F00D21 /* TrixChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A72933F225DF18800F00D21 /* TrixChatTests.swift */,
+				8A729341225DF18800F00D21 /* Info.plist */,
+			);
+			path = TrixChatTests;
+			sourceTree = "<group>";
+		};
+		8A729349225DF18800F00D21 /* TrixChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8A72934A225DF18800F00D21 /* TrixChatUITests.swift */,
+				8A72934C225DF18800F00D21 /* Info.plist */,
+			);
+			path = TrixChatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A729326225DF18200F00D21 /* TrixChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A72934F225DF18800F00D21 /* Build configuration list for PBXNativeTarget "TrixChat" */;
+			buildPhases = (
+				8A729323225DF18200F00D21 /* Sources */,
+				8A729324225DF18200F00D21 /* Frameworks */,
+				8A729325225DF18200F00D21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrixChat;
+			productName = TrixChat;
+			productReference = 8A729327225DF18200F00D21 /* TrixChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A72933A225DF18800F00D21 /* TrixChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A729352225DF18800F00D21 /* Build configuration list for PBXNativeTarget "TrixChatTests" */;
+			buildPhases = (
+				8A729337225DF18800F00D21 /* Sources */,
+				8A729338225DF18800F00D21 /* Frameworks */,
+				8A729339225DF18800F00D21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A72933D225DF18800F00D21 /* PBXTargetDependency */,
+			);
+			name = TrixChatTests;
+			productName = TrixChatTests;
+			productReference = 8A72933B225DF18800F00D21 /* TrixChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8A729345225DF18800F00D21 /* TrixChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A729355225DF18800F00D21 /* Build configuration list for PBXNativeTarget "TrixChatUITests" */;
+			buildPhases = (
+				8A729342225DF18800F00D21 /* Sources */,
+				8A729343225DF18800F00D21 /* Frameworks */,
+				8A729344225DF18800F00D21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A729348225DF18800F00D21 /* PBXTargetDependency */,
+			);
+			name = TrixChatUITests;
+			productName = TrixChatUITests;
+			productReference = 8A729346225DF18800F00D21 /* TrixChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A72931F225DF18100F00D21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Vamsikrishna, Tangudu";
+				TargetAttributes = {
+					8A729326225DF18200F00D21 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					8A72933A225DF18800F00D21 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8A729326225DF18200F00D21;
+					};
+					8A729345225DF18800F00D21 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8A729326225DF18200F00D21;
+					};
+				};
+			};
+			buildConfigurationList = 8A729322225DF18100F00D21 /* Build configuration list for PBXProject "TrixChat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A72931E225DF18100F00D21;
+			productRefGroup = 8A729328225DF18200F00D21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A729326225DF18200F00D21 /* TrixChat */,
+				8A72933A225DF18800F00D21 /* TrixChatTests */,
+				8A729345225DF18800F00D21 /* TrixChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A729325225DF18200F00D21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A729335225DF18800F00D21 /* LaunchScreen.storyboard in Resources */,
+				8A729332225DF18800F00D21 /* Assets.xcassets in Resources */,
+				8A729330225DF18200F00D21 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A729339225DF18800F00D21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A729344225DF18800F00D21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A729323225DF18200F00D21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A72932D225DF18200F00D21 /* ViewController.swift in Sources */,
+				8A72932B225DF18200F00D21 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A729337225DF18800F00D21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A729340225DF18800F00D21 /* TrixChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A729342225DF18800F00D21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A72934B225DF18800F00D21 /* TrixChatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A72933D225DF18800F00D21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A729326225DF18200F00D21 /* TrixChat */;
+			targetProxy = 8A72933C225DF18800F00D21 /* PBXContainerItemProxy */;
+		};
+		8A729348225DF18800F00D21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A729326225DF18200F00D21 /* TrixChat */;
+			targetProxy = 8A729347225DF18800F00D21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8A72932E225DF18200F00D21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A72932F225DF18200F00D21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8A729333225DF18800F00D21 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A729334225DF18800F00D21 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A72934D225DF18800F00D21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8A72934E225DF18800F00D21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A729350225DF18800F00D21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7L7AZ2A655;
+				INFOPLIST_FILE = TrixChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dell.mobileapps.dellnavigate.SpacesNotification.TrixChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A729351225DF18800F00D21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7L7AZ2A655;
+				INFOPLIST_FILE = TrixChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dell.mobileapps.dellnavigate.SpacesNotification.TrixChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8A729353225DF18800F00D21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7L7AZ2A655;
+				INFOPLIST_FILE = TrixChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dell.mobileapps.dellnavigate.SpacesNotification.TrixChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrixChat.app/TrixChat";
+			};
+			name = Debug;
+		};
+		8A729354225DF18800F00D21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7L7AZ2A655;
+				INFOPLIST_FILE = TrixChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dell.mobileapps.dellnavigate.SpacesNotification.TrixChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrixChat.app/TrixChat";
+			};
+			name = Release;
+		};
+		8A729356225DF18800F00D21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7L7AZ2A655;
+				INFOPLIST_FILE = TrixChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dell.mobileapps.dellnavigate.SpacesNotification.TrixChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrixChat;
+			};
+			name = Debug;
+		};
+		8A729357225DF18800F00D21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7L7AZ2A655;
+				INFOPLIST_FILE = TrixChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dell.mobileapps.dellnavigate.SpacesNotification.TrixChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrixChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A729322225DF18100F00D21 /* Build configuration list for PBXProject "TrixChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A72934D225DF18800F00D21 /* Debug */,
+				8A72934E225DF18800F00D21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A72934F225DF18800F00D21 /* Build configuration list for PBXNativeTarget "TrixChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A729350225DF18800F00D21 /* Debug */,
+				8A729351225DF18800F00D21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A729352225DF18800F00D21 /* Build configuration list for PBXNativeTarget "TrixChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A729353225DF18800F00D21 /* Debug */,
+				8A729354225DF18800F00D21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A729355225DF18800F00D21 /* Build configuration list for PBXNativeTarget "TrixChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A729356225DF18800F00D21 /* Debug */,
+				8A729357225DF18800F00D21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A72931F225DF18100F00D21 /* Project object */;
+}
