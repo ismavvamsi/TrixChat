@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import  GBFloatingTextField
 
 class LicenceValidationViewController: UIViewController {
     
