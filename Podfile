@@ -13,6 +13,7 @@ target 'TrixChat' do
     pod 'IQKeyboardManagerSwift'
     pod 'AlamofireImage'
 
+
   target 'TrixChatTests' do
     inherit! :search_paths
     # Pods for testing
