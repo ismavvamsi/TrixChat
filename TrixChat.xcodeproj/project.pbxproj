@@ -22,7 +22,7 @@
 		8A729368225DF52900F00D21 /* MyUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A729363225DF52800F00D21 /* MyUserDefaults.swift */; };
 		8A729369225DF52900F00D21 /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A729364225DF52900F00D21 /* WebServices.swift */; };
 		8A72936A225DF52900F00D21 /* WebConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A729365225DF52900F00D21 /* WebConstants.swift */; };
-		8A72936B225DF52900F00D21 /* ResponseConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A729366225DF52900F00D21 /* ResponseConstants.swift */; };
+		8A72936B225DF52900F00D21 /* RequestConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A729366225DF52900F00D21 /* RequestConstants.swift */; };
 		8A72936C225DF52900F00D21 /* ApiEndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A729367225DF52900F00D21 /* ApiEndPoints.swift */; };
 		8A72936E225DFD5D00F00D21 /* ChatOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A72936D225DFD5D00F00D21 /* ChatOptions.swift */; };
 		8A729370225DFD7E00F00D21 /* ChatForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A72936F225DFD7E00F00D21 /* ChatForm.swift */; };
@@ -74,7 +74,7 @@
 		8A729363225DF52800F00D21 /* MyUserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyUserDefaults.swift; sourceTree = "<group>"; };
 		8A729364225DF52900F00D21 /* WebServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServices.swift; sourceTree = "<group>"; };
 		8A729365225DF52900F00D21 /* WebConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebConstants.swift; sourceTree = "<group>"; };
-		8A729366225DF52900F00D21 /* ResponseConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseConstants.swift; sourceTree = "<group>"; };
+		8A729366225DF52900F00D21 /* RequestConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestConstants.swift; sourceTree = "<group>"; };
 		8A729367225DF52900F00D21 /* ApiEndPoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiEndPoints.swift; sourceTree = "<group>"; };
 		8A72936D225DFD5D00F00D21 /* ChatOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatOptions.swift; sourceTree = "<group>"; };
 		8A72936F225DFD7E00F00D21 /* ChatForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatForm.swift; sourceTree = "<group>"; };
@@ -240,7 +240,7 @@
 				8A729365225DF52900F00D21 /* WebConstants.swift */,
 				8A729364225DF52900F00D21 /* WebServices.swift */,
 				8A729363225DF52800F00D21 /* MyUserDefaults.swift */,
-				8A729366225DF52900F00D21 /* ResponseConstants.swift */,
+				8A729366225DF52900F00D21 /* RequestConstants.swift */,
 			);
 			path = WebServices;
 			sourceTree = "<group>";
@@ -509,7 +509,7 @@
 				8A729372225DFD9F00F00D21 /* CheckLicenseResponse.swift in Sources */,
 				8A72936C225DF52900F00D21 /* ApiEndPoints.swift in Sources */,
 				8A72932B225DF18200F00D21 /* AppDelegate.swift in Sources */,
-				8A72936B225DF52900F00D21 /* ResponseConstants.swift in Sources */,
+				8A72936B225DF52900F00D21 /* RequestConstants.swift in Sources */,
 				8A72936A225DF52900F00D21 /* WebConstants.swift in Sources */,
 				8A729370225DFD7E00F00D21 /* ChatForm.swift in Sources */,
 			);

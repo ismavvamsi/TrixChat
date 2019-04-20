@@ -16,7 +16,6 @@ class ChatForm{
     var maxLength:String
     var validation:String
     var mandatory:Bool
-    //var data:Data
     
     init() {
         self.fieldName = String()
@@ -24,7 +23,6 @@ class ChatForm{
         self.maxLength = String()
         self.validation = String()
         self.mandatory = Bool()
-        //self.data = ProfileData()
     }
     convenience init (json : JSON){
         self.init()
@@ -33,6 +31,5 @@ class ChatForm{
         self.maxLength = json["maxLength"].stringValue
         self.validation = json["validation"].stringValue
         self.mandatory = json["mandatory"].boolValue
-        //self.data = ProfileData(json: json["data"])
     }
 }

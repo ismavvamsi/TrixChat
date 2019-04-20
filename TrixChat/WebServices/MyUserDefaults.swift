@@ -1,10 +1,3 @@
-//
-//  MyUserDefaults.swift
-//  Stay Ahead
-//
-//  Created by Kishore on 9/20/16.
-//  Copyright © 2016 IDS Next. All rights reserved.
-//
 
 import Foundation
 

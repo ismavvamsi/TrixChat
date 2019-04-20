@@ -17,4 +17,12 @@ class JSONArrayFormatter {
         }
         return responseArray
 }
+    
+    func licenceKeyResponse(json: JSON) -> [CheckLicenseResponse] {
+        var responseArray: [CheckLicenseResponse] = []
+        for i in 0..<json.count {
+            responseArray.append(CheckLicenseResponse(json: json[i]))
+        }
+        return responseArray
+    }
 }

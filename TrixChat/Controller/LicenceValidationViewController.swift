@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SVProgressHUD
 
 class LicenceValidationViewController: UIViewController {
     
@@ -17,6 +18,7 @@ class LicenceValidationViewController: UIViewController {
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var trixChatImageView: UIImageView!
     @IBOutlet weak var chatButton: UIButton!
+    let checkLicenceResponse = CheckLicenseResponse()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,12 +31,8 @@ class LicenceValidationViewController: UIViewController {
     
     @IBAction func chatAction(_ sender: Any) {
         
-        
-    }
-
-
+        }
 }
-
 extension UIViewController {
     
     @objc func hideKeyboardWhenTap() {
